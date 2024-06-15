@@ -2,7 +2,7 @@ import React from 'react'
 import Navbar from './Navbar'
 import Home from './Home'
 import Courses from './Courses'
-import Results from './Results'
+
 import About from './About'
 import Contact from './Contact'
 import Gallery from './Gallery'
@@ -10,6 +10,7 @@ import { createBrowserRouter, RouterProvider } from 'react-router-dom'
 import MpResult from './MpResult'
 import CbseResults from './CbseResults'
 import DirectorInfo from './DirectorInfo'
+import Testimonial from './Testimonial'
 
 
 
@@ -22,7 +23,7 @@ const App = () => {
   const router = createBrowserRouter([
     {
       path: "/",
-      element: <> <Navbar/><Home/> <Courses/><Results/><DirectorInfo/><Contact/><About/></>
+      element: <> <Navbar/><Home/> <Courses/><MpResult/><CbseResults/><DirectorInfo/><Testimonial/><Contact/><About/></>
     },
 
     {
